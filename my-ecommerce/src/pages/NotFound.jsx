@@ -10,7 +10,7 @@ const NotFound = () => {
             <div>
                    <Layout/>
                  <div className="flex flex-col justify-center  items-center mt-20">
-                    <h2 className="text-3xl font-bold text-center text-gray-800">¡Esta página no exite!</h2>
+                    <h2 className="text-3xl font-bold text-center text-gray-800">¡Esta página no existe!</h2>
                     <img
                     className="block item-center h-auto w-42 lg:hidden"
                     src={ notFound }

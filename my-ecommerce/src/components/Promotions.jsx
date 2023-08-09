@@ -5,7 +5,7 @@ import Card from "./Card";
 import Title from "../utilities/Title";
 import Subtitle from "../utilities/Subtitle";
 
-const Products = () => {
+const Promotions = () => {
     const [currentPage, setCurrentPage] = useState(1);
     const url = `https://64851bfea795d24810b6b694.mockapi.io/api/v1/products?p=${currentPage}&l=5`;
     const [products, setProducts] = useState([]);
@@ -24,10 +24,10 @@ useEffect(()=>{
     return (
         <div className="container mx-auto bg-amber-50">
         <section className="flex flex-col">
-          <Title text="Productos más vendidos"/>
+            <Title text="Ofertas y promociones"/>
             <div className="flex flex-row justify-between">
-              <Subtitle text="Ve todos los productos que tenemos para ti..." />
-              <ButtonLink className="mr-40" text="Ver todo" to="/Products" />
+             <Subtitle text="Aprovecha nuestras ofertas..." />
+             <ButtonLink text="Ver todo" to="/Products" />
             </div>
         </section>
       
@@ -44,4 +44,4 @@ useEffect(()=>{
     );
 }
 
-export default Products;
+export default Promotions;

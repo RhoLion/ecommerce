@@ -17,7 +17,7 @@ function classNames(...classes) {
 const Layout = () => {
   const location = useLocation();
   return (
-    <Disclosure as="nav" className="bg-amber-50 sticky top-0">
+    <Disclosure as="nav" className="container mx-auto bg-amber-50 sticky top-0">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">

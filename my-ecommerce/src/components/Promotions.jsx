@@ -7,7 +7,7 @@ import Subtitle from "../utilities/Subtitle";
 
 const Promotions = () => {
     const [currentPage, setCurrentPage] = useState(1);
-    const url = `https://64851bfea795d24810b6b694.mockapi.io/api/v1/products?p=${currentPage}&l=5`;
+    const url = `https://64851bfea795d24810b6b694.mockapi.io/api/v1/offers?p=${currentPage}&l=5`;
     const [products, setProducts] = useState([]);
 
      const getProducts = () => {

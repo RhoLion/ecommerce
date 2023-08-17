@@ -4,7 +4,7 @@ const Subscribe = () => {
   return (
     <div className="flex justify-center items-center">
       <div className="bg-amber-50 py-16 sm:py-24 lg:py-32">
-        <div className="grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-1">
+        <div className="grid max-w-2xl grid-cols-1 mx-4 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-1">
           <div className="max-w-xl lg:max-w-lg">
             <h2 className="text-3xl font-bold tracking-tight text-gray-800 sm:text-4xl text-center">
               Suscríbete a nuestras noticias

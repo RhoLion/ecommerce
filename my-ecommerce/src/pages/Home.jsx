@@ -6,6 +6,7 @@ import Products from '../components/Products';
 import Promotions from '../components/Promotions';
 import Information from '../components/Information';
 import Subscribe from '../components/Subscribe';
+import Footer from '../components/Footer'
 
 class Home extends Component {
     render() {
@@ -17,6 +18,7 @@ class Home extends Component {
                 <Promotions />
                 <Information />
                 <Subscribe />
+                <Footer />
             </div>
         );
     }
